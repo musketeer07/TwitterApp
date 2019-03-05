@@ -1,0 +1,32 @@
+{
+  "name": "apna-twitter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "body-parser": "*",
+    "mongoose": "*",
+    "mongodb": "*",
+    "connect-flash": "*",
+    "express-session": "*",
+    "async": "*",
+    "serve-favicon": "*",
+    "errorhandler": "*",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "multer": "*",
+    "bcryptjs": "*",
+    "express-validator": "*",
+    "express-messages": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
